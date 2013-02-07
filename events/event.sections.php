@@ -201,6 +201,7 @@
 
 			// redirect
 			if( !empty($redirect) ){
+				$redirect = $this->sectionsReplaceGetNewValue( $redirect );
 				redirect( $redirect );
 			}
 
