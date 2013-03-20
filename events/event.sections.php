@@ -268,7 +268,7 @@
 
 				// set filters if they exist
 				if( isset($data['__filters']) ){
-					$filters = $data['__filters'];
+					$filters[] = $data['__filters'];
 					unset($data['__filters']);
 				}
 
